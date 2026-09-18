@@ -9,8 +9,8 @@
   abre o WhatsApp com a notificação pronta para você confirmar o envio.
 */
 const CONFIG = {
-  TELEGRAM_USERNAME: "SEU_CONTACTO_TELEGRAM",
-  WHATSAPP_NUMBER: "351900000000",
+  TELEGRAM_USERNAME: "https://t.me/saler_00899",
+  WHATSAPP_NUMBER: "833648508",
   NOTIFY_WHATSAPP_ON_PURCHASE: true,
   SALE_DURATION_SECONDS: 14 * 60 + 25,
 };
