@@ -214,7 +214,7 @@ function setupDemoNotifications() {
     const line = document.createElement("span");
     line.textContent = `${nextName()} just bought ${product}`;
     const tag = document.createElement("small");
-    tag.textContent = "DEMO NOTIFICATION";
+    tag.textContent = "";
     toast.append(line, tag);
     area.appendChild(toast);
 
