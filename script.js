@@ -156,7 +156,7 @@ const DEMO_NAMES = [
   "Tânia", "Wilson", "Alexandra", "Denis", "Fátima", "Otávio", "Zara", "Marco", "Odete", "Jaime",
 ];
 
-const DEMO_INTERVAL_MS = 10 *900; // 10 secands
+const DEMO_INTERVAL_MS = 10 *1000; // 10 secands
 const DEMO_FIRST_DELAY_MS = 10 * 1000;   // first toast after 10 seconds
 const DEMO_VISIBLE_MS = 6000;            // how long each toast stays visible
 
