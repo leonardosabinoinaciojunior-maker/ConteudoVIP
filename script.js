@@ -61,7 +61,7 @@ function closeModal() {
 function continueOnTelegram() {
   if (!selectedProduct) return;
 
-  const message = `Hello! I'm interested in: ${selectedProduct.name} (${formatPrice(selectedProduct.price)}).`;
+  const message = `Hello! 👋 I saw your website and I'm interested in: ${selectedProduct.name} (${formatPrice(selectedProduct.price)}). 📦 Could you please send me more information about the options and pricing? 🙏`;
   window.open(telegramUrl(message), "_blank", "noopener,noreferrer");
   orderStatus.textContent = "Telegram was opened in a new tab.";
 }
